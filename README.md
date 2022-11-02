@@ -7,7 +7,7 @@ The repo consists of two main directories:
 - [`wordpress`](wordpress): contains the WordPress installation, including themes, plugins, and database content
 - [`docs`](docs): contains the exported static website to be served by GitHub Pages
 
-> GitHub Pages can only serve from the root or `docs` directory, that's why the directory containing the static website files is called `docs` and not something like `site`.
+> GitHub Pages can only serve from the root directory of the repo or from a `/docs` subdirectory. Since the root directory also contains other stuff, `/docs` is used.
 
 ## Editing
 
@@ -36,6 +36,15 @@ To commit the changes back to the repository, proceed as follows:
 The website is exported as a static website with the [Simply Static](https://wordpress.org/plugins/simply-static/) plugin.
 
 To export the website, select _Simply Static > Generate > Generate Static Files_ in the WordPress Admin Dashboard and make sure that the files are exported to the [`docs`](docs) directory.
+
+## WordPress
+
+The credentials for the WordPress Admin Dashboard are as follows:
+
+- Username: admin
+- Password: 12345678
+
+> The WordPress Admin Dashboard is only used locally and will never be exposed on the internet (since only the exported static website files will be exposed), thus no secure credentials are needed.
 
 ## GitHub Pages
 
