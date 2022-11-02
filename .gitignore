@@ -1,1 +1,5 @@
+# WordPress logs
 **/logs
+
+# Copy of exported static files in Simply Static plugin
+**/plugins/simply-static/static-files
