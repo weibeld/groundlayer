@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Uncategorized &#8211; groundlayer</title>
-	<atom:link href="/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="/groundlayer/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>/groundlayer/</link>
 	<description></description>
 	<lastBuildDate>Wed, 02 Nov 2022 10:13:35 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,20 +21,20 @@
 	<generator>https://wordpress.org/?v=6.1</generator>
 	<item>
 		<title>Hello world!</title>
-		<link>/hello-world/</link>
-					<comments>/hello-world/#comments</comments>
+		<link>/groundlayer/hello-world/</link>
+					<comments>/groundlayer/hello-world/#comments</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Wed, 02 Nov 2022 10:13:35 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">/?p=1</guid>
+		<guid isPermaLink="false">/groundlayer/?p=1</guid>
 
 					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
 										<content:encoded><![CDATA[
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/hello-world/feed/</wfw:commentRss>
+					<wfw:commentRss>/groundlayer/hello-world/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		

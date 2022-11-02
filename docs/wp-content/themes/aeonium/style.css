@@ -200,8 +200,8 @@ a.is-style-links-underline-on-hover:not(:hover) {
 	z-index: -1;
 	background-color: inherit;
 	background-image: inherit;
-	-webkit-mask-image: url("/wp-content/themes/aeonium/border-before.svg");
-	mask-image: url("/wp-content/themes/aeonium/border-before.svg");
+	-webkit-mask-image: url("/groundlayer/wp-content/themes/aeonium/border-before.svg");
+	mask-image: url("/groundlayer/wp-content/themes/aeonium/border-before.svg");
 	-webkit-mask-position: left top;
 	mask-position: left top;
 	-webkit-mask-repeat: no-repeat;
@@ -242,8 +242,8 @@ a.is-style-links-underline-on-hover:not(:hover) {
 	left: auto !important;
 	background-color: inherit;
 	background-image: inherit;
-	-webkit-mask-image: url("/wp-content/themes/aeonium/border-after.svg");
-	mask-image: url("/wp-content/themes/aeonium/border-after.svg");
+	-webkit-mask-image: url("/groundlayer/wp-content/themes/aeonium/border-after.svg");
+	mask-image: url("/groundlayer/wp-content/themes/aeonium/border-after.svg");
 	-webkit-mask-position: left top;
 	mask-position: left top;
 	-webkit-mask-repeat: no-repeat;
