@@ -53,7 +53,9 @@ To export the website as a static website, proceed as follows:
     - e.g. `rsync -a --delete groundlayer-site/ groundlayer/docs`
 1. Commit the changes to the repository
 
-## WordPress
+## Notes
+
+### WordPress
 
 The credentials for the WordPress Admin Dashboard are as follows:
 
@@ -62,6 +64,14 @@ The credentials for the WordPress Admin Dashboard are as follows:
 
 > Note: the WordPress Admin Dashboard is only used locally and will never be exposed on the internet (since only the exported static website files will be exposed), thus no secure credentials are needed.
 
-## GitHub Pages
+### GitHub Pages
 
 GitHub Pages must be configured to serve from the `docs` directory in the `main` branch.
+
+### Assets
+
+- Icons for service descriptions from [Flaticon](https://www.flaticon.com/packs/engineering-165)
+- Colour of PNG files converted with the following command:
+    ```bash
+    convert file.png -fill "#ABCDEF" -colorize 100 file-out.png
+    ```
