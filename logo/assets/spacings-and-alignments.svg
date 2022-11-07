@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="907px" height="213px" viewBox="0 0 907 213" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>spacings-and-alignments</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M32,148 L32,39" id="path-1"></path>
+        <path d="M104.5,30.5 L47.5,30.5" id="path-2"></path>
+        <path d="M67,157 L49,157" id="path-3"></path>
+        <path d="M331,75.5 L312,75.5" id="path-4"></path>
+        <path d="M94,115.5 L67,115.5" id="path-5"></path>
+        <path d="M867,106.5 L840,106.5" id="path-6"></path>
+    </defs>
+    <g id="spacings-and-alignments" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="907" height="213"></rect>
+        <text id="Groundlayer" font-family="Montserrat-ExtraBold, Montserrat" font-size="96" font-weight="600" letter-spacing="-3.8" fill="#000000">
+            <tspan x="91" y="149">GROUNDLAYER</tspan>
+        </text>
+        <path d="M57,150 C57,150 57,116.666667 57,50 L105,50" id="Path" stroke="#FED91F" stroke-width="19"></path>
+        <path d="M829,182 C829,182 829,148.666667 829,82 L877,82" id="Path" stroke="#FED91F" stroke-width="19" transform="translate(853.000000, 132.000000) rotate(-180.000000) translate(-853.000000, -132.000000) "></path>
+        <text id="DevOps-Engineering" font-family="Montserrat-Medium, Montserrat" font-size="36" font-weight="400" letter-spacing="9" fill="#000000">
+            <tspan x="104" y="195">DEVOPS ENGINEERING</tspan>
+        </text>
+        <path id="Line-2" d="M27.5,148.5 L27.5,147.5 L31.5,147.5 L31.5,142.5 L32.5,142.5 L32.5,147.5 L36.5,147.5 L36.5,148.5 L27.5,148.5 Z M32.5,134.5 L32.5,140.5 L31.5,140.5 L31.5,134.5 L32.5,134.5 Z M32.5,126.5 L32.5,132.5 L31.5,132.5 L31.5,126.5 L32.5,126.5 Z M32.5,118.5 L32.5,124.5 L31.5,124.5 L31.5,118.5 L32.5,118.5 Z M32.5,110.5 L32.5,116.5 L31.5,116.5 L31.5,110.5 L32.5,110.5 Z M32.5,102.5 L32.5,108.5 L31.5,108.5 L31.5,102.5 L32.5,102.5 Z M32.5,94.5 L32.5,100.5 L31.5,100.5 L31.5,94.5 L32.5,94.5 Z M32.5,86.5 L32.5,92.5 L31.5,92.5 L31.5,86.5 L32.5,86.5 Z M32.5,78.5 L32.5,84.5 L31.5,84.5 L31.5,78.5 L32.5,78.5 Z M32.5,70.5 L32.5,76.5 L31.5,76.5 L31.5,70.5 L32.5,70.5 Z M32.5,62.5 L32.5,68.5 L31.5,68.5 L31.5,62.5 L32.5,62.5 Z M32.5,54.5 L32.5,60.5 L31.5,60.5 L31.5,54.5 L32.5,54.5 Z M32.5,46.5 L32.5,52.5 L31.5,52.5 L31.5,46.5 L32.5,46.5 Z M36.5,38.5 L36.5,39.5 L32.5,39.5 L32.5,44.5 L31.5,44.5 L31.5,39.5 L27.5,39.5 L27.5,38.5 L36.5,38.5 Z" fill="#001EE8" fill-rule="nonzero"></path>
+        <text id="25" font-family="Inter-Medium, Inter" font-size="12" font-weight="400" fill="#001EE8">
+            <tspan x="12" y="100">25</tspan>
+        </text>
+        <text id="12" font-family="Inter-Medium, Inter" font-size="12" font-weight="400" fill="#001EE8">
+            <tspan x="70" y="26">12</tspan>
+        </text>
+        <text id="5" font-family="Inter-Medium, Inter" font-size="12" font-weight="400" fill="#001EE8">
+            <tspan x="54" y="172">5</tspan>
+        </text>
+        <text id="7" font-family="Inter-Medium, Inter" font-size="12" font-weight="400" fill="#001EE8">
+            <tspan x="77" y="128">7</tspan>
+        </text>
+        <text id="5" font-family="Inter-Medium, Inter" font-size="12" font-weight="400" fill="#001EE8">
+            <tspan x="318" y="73">5</tspan>
+        </text>
+        <path id="Line-2" d="M105,35 L104,35 L104,31 L99,31 L99,30 L104,30 L104,26 L105,26 L105,35 Z M48,26 L48,30 L49,30 L49,31 L48,31 L48,35 L47,35 L47,26 L48,26 Z M97,30 L97,31 L91,31 L91,30 L97,30 Z M89,30 L89,31 L83,31 L83,30 L89,30 Z M81,30 L81,31 L75,31 L75,30 L81,30 Z M73,30 L73,31 L67,31 L67,30 L73,30 Z M65,30 L65,31 L59,31 L59,30 L65,30 Z M57,30 L57,31 L51,31 L51,30 L57,30 Z" fill="#001EE8" fill-rule="nonzero"></path>
+        <path id="Line-2" d="M67.5,161.5 L66.5,161.5 L66.5,157.5 L61.5,157.5 L61.5,156.5 L66.5,156.5 L66.5,152.5 L67.5,152.5 L67.5,161.5 Z M49.5,152.5 L49.5,156.5 L51.5,156.5 L51.5,157.5 L49.5,157.5 L49.5,161.5 L48.5,161.5 L48.5,152.5 L49.5,152.5 Z M59.5,156.5 L59.5,157.5 L53.5,157.5 L53.5,156.5 L59.5,156.5 Z" fill="#001EE8" fill-rule="nonzero"></path>
+        <path id="Line-2" d="M331.5,80 L330.5,80 L330.5,76 L325.5,76 L325.5,75 L330.5,75 L330.5,71 L331.5,71 L331.5,80 Z M312.5,71 L312.5,75 L315.5,75 L315.5,76 L312.5,76 L312.5,80 L311.5,80 L311.5,71 L312.5,71 Z M323.5,75 L323.5,76 L317.5,76 L317.5,75 L323.5,75 Z" fill="#001EE8" fill-rule="nonzero"></path>
+        <path id="Line-2" d="M94.5,120 L93.5,120 L93.5,116 L88.5,116 L88.5,115 L93.5,115 L93.5,111 L94.5,111 L94.5,120 Z M67.5,111 L67.5,115 L70.5,115 L70.5,116 L67.5,116 L67.5,120 L66.5,120 L66.5,111 L67.5,111 Z M86.5,115 L86.5,116 L80.5,116 L80.5,115 L86.5,115 Z M78.5,115 L78.5,116 L72.5,116 L72.5,115 L78.5,115 Z" fill="#001EE8" fill-rule="nonzero"></path>
+        <text id="7" font-family="Inter-Medium, Inter" font-size="12" font-weight="400" fill="#001EE8">
+            <tspan x="850" y="118">7</tspan>
+        </text>
+        <path id="Line-2" d="M867.5,111 L866.5,111 L866.5,107 L861.5,107 L861.5,106 L866.5,106 L866.5,102 L867.5,102 L867.5,111 Z M840.5,102 L840.5,106 L843.5,106 L843.5,107 L840.5,107 L840.5,111 L839.5,111 L839.5,102 L840.5,102 Z M859.5,106 L859.5,107 L853.5,107 L853.5,106 L859.5,106 Z M851.5,106 L851.5,107 L845.5,107 L845.5,106 L851.5,106 Z" fill="#001EE8" fill-rule="nonzero"></path>
+        <line x1="293" y1="150.5" x2="42" y2="150.5" id="Line-2" stroke="#DF00F7" stroke-width="2" stroke-linecap="square" stroke-dasharray="5,3"></line>
+        <line x1="895.5" y1="82" x2="639.5" y2="82" id="Line-2" stroke="#DF00F7" stroke-width="2" stroke-linecap="square" stroke-dasharray="5,3"></line>
+        <line x1="107.5" y1="201" x2="107.5" y2="76" id="Line-2" stroke="#DF00F7" stroke-width="2" stroke-linecap="square" stroke-dasharray="5,3"></line>
+        <line x1="877.5" y1="182" x2="95" y2="181.5" id="Line-2" stroke="#DF00F7" stroke-width="2" stroke-linecap="square" stroke-dasharray="5,3"></line>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="246px" height="65px" viewBox="0 0 246 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>bg-dark-slogan</title>
+    <desc>Created with Sketch.</desc>
+    <g id="bg-dark-slogan" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#000000" x="0" y="0" width="246" height="65"></rect>
+        <g id="Group" transform="translate(20.000000, 15.000000)">
+            <text id="GroundLayer" font-family="Montserrat-ExtraBold, Montserrat" font-size="24" font-weight="600" letter-spacing="-0.9" fill="#FFFFFF">
+                <tspan x="9" y="24.75">GROUNDLAYER</tspan>
+            </text>
+            <path d="M0,25 C0,25 0,16.6666667 0,0 L12,0" id="Path" stroke="#FED91F" stroke-width="5"></path>
+            <path d="M194,33 C194,33 194,24.6666667 194,8 L206,8" id="Path" stroke="#FED91F" stroke-width="5" transform="translate(200.000000, 20.500000) rotate(-180.000000) translate(-200.000000, -20.500000) "></path>
+            <text id="DevOps-Engineering" font-family="Montserrat-Medium, Montserrat" font-size="8" font-weight="400" letter-spacing="2" fill="#FFFFFF">
+                <tspan x="12" y="35.75">DEVOPS ENGINEERING</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
