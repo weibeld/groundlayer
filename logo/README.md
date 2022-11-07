@@ -1,6 +1,6 @@
 # Logo
 
-## Specs
+## Specifications
 
 ![Spacings and alignments](assets/spacings-and-alignments.svg)
 
@@ -24,3 +24,5 @@
 | Light background with slogan | ![Light background with slogan](assets/bg-light-slogan.svg) |
 | Dark background              | ![Dark background](assets/bg-dark.svg)                      |
 | Dark background with slogan  | ![Dark background with slogan](assets/bg-dark-slogan.svg)   |
+
+> **Note:** in the versions with a slogan, the slogan is added without changing the position of any of the other elements.
