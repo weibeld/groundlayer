@@ -13,7 +13,7 @@
 | Slogan font size                     | 8                    |
 | Slogan character spacing             | 2                    |
 | Text colour light background (black) | #000000              |
-| Text colour dark background (white)  | #FFFFFF              |
+| Text colour dark background (white)  | #EBEBEB              |
 | Accent colour (yellow)               | #FED91F              |
 
 ## Versions

@@ -6,7 +6,7 @@
     <g id="bg-dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect fill="#000000" x="0" y="0" width="246" height="65"></rect>
         <g id="Group" transform="translate(20.000000, 16.000000)">
-            <g id="title-bg-dark" transform="translate(9.000000, 1.750000)" fill="#FFFFFF" font-family="Montserrat-ExtraBold, Montserrat" font-size="24" font-weight="600" letter-spacing="-0.9">
+            <g id="title-bg-dark" transform="translate(9.000000, 1.750000)" fill="#EBEBEB" font-family="Montserrat-ExtraBold, Montserrat" font-size="24" font-weight="600" letter-spacing="-0.9">
                 <text id="GroundLayer">
                     <tspan x="0" y="23">GROUNDLAYER</tspan>
                 </text>
