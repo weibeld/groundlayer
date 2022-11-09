@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>icon-light</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon-light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <g id="icon-background-light" transform="translate(0.750000, 0.750000)" fill="#FFFFFF">
+                <rect id="Rectangle" x="0" y="0" width="48" height="48" rx="10"></rect>
+            </g>
+            <g id="icon-title-light" transform="translate(16.000000, 10.000000)" fill="#000000" font-family="Montserrat-ExtraBold, Montserrat" font-size="24" font-weight="600" letter-spacing="-0.9">
+                <text id="G">
+                    <tspan x="0" y="23">G</tspan>
+                </text>
+            </g>
+            <g id="decoration-right" transform="translate(30.500000, 16.000000)" stroke="#FED91F" stroke-width="5">
+                <path d="M0,25 C0,25 0,16.6666667 0,0 L12,0" id="Path" transform="translate(6.000000, 12.500000) rotate(-180.000000) translate(-6.000000, -12.500000) "></path>
+            </g>
+            <g id="decoration-left" transform="translate(7.000000, 8.500000)" stroke="#FED91F" stroke-width="5">
+                <path d="M0,25 C0,25 0,16.6666667 0,0 L12,0" id="Path"></path>
+            </g>
+        </g>
+        <rect id="Rectangle" stroke="#000000" stroke-width="0.5" x="1" y="1" width="48" height="48" rx="10"></rect>
+    </g>
+</svg>

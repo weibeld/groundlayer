@@ -1,8 +1,10 @@
 # Logo
 
-## Specifications
+## Full Logo
 
-![Spacings and alignments](assets/spacings-and-alignments.svg)
+### Specs
+
+![Spacings and alignments](assets/logo-spacings-and-alignments.svg)
 
 | Property                             | Value                |
 |:-------------------------------------|:---------------------|
@@ -16,13 +18,36 @@
 | Text colour dark background (white)  | #EBEBEB              |
 | Accent colour (yellow)               | #FED91F              |
 
-## Versions
+### Versions
 
 | Version                      | Image                                                       |
 |:-----------------------------|:------------------------------------------------------------|
-| Light background             | ![Light background](assets/bg-light.svg)                    |
-| Light background with slogan | ![Light background with slogan](assets/bg-light-slogan.svg) |
-| Dark background              | ![Dark background](assets/bg-dark.svg)                      |
-| Dark background with slogan  | ![Dark background with slogan](assets/bg-dark-slogan.svg)   |
+| Light background             | ![Light background](assets/logo-bg-light.svg)                    |
+| Light background with slogan | ![Light background with slogan](assets/logo-bg-light-slogan.svg) |
+| Dark background              | ![Dark background](assets/logo-bg-dark.svg)                      |
+| Dark background with slogan  | ![Dark background with slogan](assets/logo-bg-dark-slogan.svg)   |
 
 > **Note:** in the versions with a slogan, the slogan is added without changing the position of any of the other elements.
+
+## Icon
+
+### Specs
+
+![Spacings and alignments](assets/icon-spacings-and-alignments.svg)
+
+| Property                  | Value                |
+|:--------------------------|:---------------------|
+| Title font                | Montserrat ExtraBold |
+| Title font size           | 24                   |
+| "Light" text colour       | #000000              |
+| "Light" background colour | #FFFFFF              |
+| "Dark" text colour        | #EBEBEB              |
+| "Dark" background colour  | #000000              |
+| Accent colour             | #FED91F              |
+
+### Versions
+
+| Version | Preview                              |
+|:--------|:-------------------------------------|
+| Light   | ![Icon light](assets/icon-light.svg) |
+| Dark    | ![Icon dark](assets/icon-dark.svg)   |

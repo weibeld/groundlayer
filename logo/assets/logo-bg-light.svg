@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="246px" height="65px" viewBox="0 0 246 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
-    <title>bg-light</title>
+    <title>logo-bg-light</title>
     <desc>Created with Sketch.</desc>
-    <g id="bg-light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="logo-bg-light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect id="Rectangle" stroke="#000000" fill="#FFFFFF" x="0" y="0" width="246" height="65"></rect>
         <g id="Group" transform="translate(20.000000, 16.000000)">
-            <g id="title-bg-light" transform="translate(9.000000, 1.750000)" fill="#000000" font-family="Montserrat-ExtraBold, Montserrat" font-size="24" font-weight="600" letter-spacing="-0.9">
+            <g id="logo-title-bg-light" transform="translate(9.000000, 1.750000)" fill="#000000" font-family="Montserrat-ExtraBold, Montserrat" font-size="24" font-weight="600" letter-spacing="-0.9">
                 <text id="GroundLayer">
                     <tspan x="0" y="23">GROUNDLAYER</tspan>
                 </text>
