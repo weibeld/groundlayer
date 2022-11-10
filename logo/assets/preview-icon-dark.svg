@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>preview-icon-dark</title>
+    <desc>Created with Sketch.</desc>
+    <g id="preview-icon-dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-background-dark" transform="translate(5.000000, 5.000000)" fill="#000000">
+            <rect id="Rectangle" x="0" y="0" width="80" height="80" rx="16"></rect>
+        </g>
+        <g id="icon-title-dark" transform="translate(31.000000, 30.000000)" fill="#EBEBEB" fill-rule="nonzero">
+            <path d="M15.5,29.56 C17.58,29.56 19.66,29.2533333 21.74,28.64 C23.82,28.0266667 25.66,27.1466667 27.26,26 L27.26,26 L27.26,14.4 L20.26,14.4 L20.26,22.08 C18.9266667,22.6933333 17.5,23 15.98,23 C14.4333333,23 13.06,22.66 11.86,21.98 C10.66,21.3 9.72666667,20.3533333 9.06,19.14 C8.39333333,17.9266667 8.06,16.5466667 8.06,15 C8.06,12.5733333 8.79333333,10.6333333 10.26,9.18 C11.7266667,7.72666667 13.66,7 16.06,7 C18.7,7 20.9666667,8.04 22.86,10.12 L22.86,10.12 L27.9,5.56 C26.5133333,3.90666667 24.78,2.64 22.7,1.76 C20.62,0.88 18.2733333,0.44 15.66,0.44 C12.6733333,0.44 9.99333333,1.06 7.62,2.3 C5.24666667,3.54 3.39333333,5.26666667 2.06,7.48 C0.726666667,9.69333333 0.06,12.2 0.06,15 C0.06,17.8 0.726666667,20.3066667 2.06,22.52 C3.39333333,24.7333333 5.23333333,26.46 7.58,27.7 C9.92666667,28.94 12.5666667,29.56 15.5,29.56 Z" id="G"></path>
+        </g>
+        <g id="decoration-left" transform="translate(12.000000, 12.000000)" fill="#FED91F" fill-rule="nonzero">
+            <polygon id="raw-decoration-left" points="30 0 30 10 10 10 10 48 0 48 0 0"></polygon>
+        </g>
+        <g id="decoration-right" transform="translate(48.000000, 30.000000)" fill="#FED91F" fill-rule="nonzero">
+            <polygon id="raw-decoration-right" points="30 0 30 48 0 48 0 38 20 38 20 0"></polygon>
+        </g>
+    </g>
+</svg>

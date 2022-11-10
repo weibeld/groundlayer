@@ -1,53 +1,60 @@
 # Logo
 
-## Full Logo
+Design specifications for the website logo and its variations.
+
+## Horizontal
+
+This is the primary logo used in the website.
 
 ### Specs
 
-![Spacings and alignments](assets/logo-spacings-and-alignments.svg)
+![Horizontal logo specification](assets/specs-logo-horizontal.svg)
 
-| Property                             | Value                |
-|:-------------------------------------|:---------------------|
-| Title font                           | Montserrat ExtraBold |
-| Title font size                      | 24                   |
-| Title character spacing              | -0.9                 |
-| Slogan font                          | Montserrat Medium    |
-| Slogan font size                     | 8                    |
-| Slogan character spacing             | 2                    |
-| Text colour light background (black) | #000000              |
-| Text colour dark background (white)  | #EBEBEB              |
-| Accent colour (yellow)               | #FED91F              |
+| Property                   | Value                |
+|:---------------------------|:---------------------|
+| Title font                 | Montserrat ExtraBold |
+| Title font size            | 40                   |
+| ↳ Title cap height         | 28 px                |
+| Title character spacing    | -1.5                 |
+| Slogan font                | Montserrat Medium    |
+| Slogan font size           | 14.29                |
+| ↳ Slogan cap height        | 10 px                |
+| Slogan character spacing   | 3.7                  |
+| Light versions text colour | #000000              |
+| Dark versions text colour  | #EBEBEB              |
+| Decoration colour          | #FED91F              |
 
 ### Versions
 
-| Version                      | Image                                                       |
-|:-----------------------------|:------------------------------------------------------------|
-| Light background             | ![Light background](assets/logo-bg-light.svg)                    |
-| Light background with slogan | ![Light background with slogan](assets/logo-bg-light-slogan.svg) |
-| Dark background              | ![Dark background](assets/logo-bg-dark.svg)                      |
-| Dark background with slogan  | ![Dark background with slogan](assets/logo-bg-dark-slogan.svg)   |
-
-> **Note:** in the versions with a slogan, the slogan is added without changing the position of any of the other elements.
+| Version           | Preview                                                                               |
+|:------------------|:--------------------------------------------------------------------------------------|
+| Light             | ![Horizontal logo light](assets/preview-logo-horizontal-light.svg)                    |
+| Light with slogan | ![Horizontal logo light with slogan](assets/preview-logo-horizontal-light-slogan.svg) |
+| Dark              | ![Horizontal logo dark](assets/preview-logo-horizontal-dark.svg)                      |
+| Dark with slogan  | ![Horizontal logo dark with slogan](assets/preview-logo-horizontal-dark-slogan.svg)   |
 
 ## Icon
 
+This is a compact form of the logo that can be used as an icon. Currently only used as the favicon for the website.
+
 ### Specs
 
-![Spacings and alignments](assets/icon-spacings-and-alignments.svg)
+![Icon specification](assets/specs-icon.svg)
 
-| Property                  | Value                |
-|:--------------------------|:---------------------|
-| Title font                | Montserrat ExtraBold |
-| Title font size           | 24                   |
-| "Light" text colour       | #000000              |
-| "Light" background colour | #FFFFFF              |
-| "Dark" text colour        | #EBEBEB              |
-| "Dark" background colour  | #000000              |
-| Accent colour             | #FED91F              |
+| Property                        | Value                |
+|:--------------------------------|:---------------------|
+| Title font                      | Montserrat ExtraBold |
+| Title font size                 | 40                   |
+| ↳ Title cap height              | 28 px                |
+| Light version text colour       | #000000              |
+| Light version background colour | #FFFFFF              |
+| Dark version text colour        | #EBEBEB              |
+| Dark version background colour  | #000000              |
+| Decoration colour               | #FED91F              |
 
 ### Versions
 
-| Version | Preview                              |
-|:--------|:-------------------------------------|
-| Light   | ![Icon light](assets/icon-light.svg) |
-| Dark    | ![Icon dark](assets/icon-dark.svg)   |
+| Version | Preview                                      |
+|:--------|:---------------------------------------------|
+| Light   | ![Icon light](assets/preview-icon-light.svg) |
+| Dark    | ![Icon dark](assets/preview-icon-dark.svg)   |
