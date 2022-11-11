@@ -2,11 +2,33 @@
 
 Design specifications for the website logo and its variations.
 
-## Horizontal
+## Usage
+
+### Basics
+
+To use any of the logos, export the corresponding artboards directly from [Sketch](https://www.sketch.com/).
+
+> For example, select the desired artboards and click _Export Selected..._.
+
+All artboards are intended to be exported as SVG files.
+
+### Convert to PNG
+
+To convert an SVG file to a PNG image of a specific size, use [Inkscape](https://inkscape.org/) with the following command:
+
+```bash
+inkscape [-w <width>] [-h <height>] input.svg -o output.png
+```
+
+In the above command, either the `-w` or `-h` option may be omitted, in which case the unspecified dimension is calculated automatically by maintaining the aspect ratio.
+
+> On macOS, Inkscape can be installed with `brew install --cask inkscape`, which also automatically links the Inkscape CLI.
+
+## Logo specifications
+
+### Horizontal
 
 This is the primary logo used in the website.
-
-### Specs
 
 ![Horizontal logo specification](assets/specs-logo-horizontal.svg)
 
@@ -24,7 +46,9 @@ This is the primary logo used in the website.
 | Dark versions text colour  | #EBEBEB              |
 | Decoration colour          | #FED91F              |
 
-### Versions
+> **Note:** the slogan is optional. Addition or removal of the slogan does not change the positioning of any of the other components.
+
+Previews:
 
 | Version           | Preview                                                                               |
 |:------------------|:--------------------------------------------------------------------------------------|
@@ -33,11 +57,9 @@ This is the primary logo used in the website.
 | Dark              | ![Horizontal logo dark](assets/preview-logo-horizontal-dark.svg)                      |
 | Dark with slogan  | ![Horizontal logo dark with slogan](assets/preview-logo-horizontal-dark-slogan.svg)   |
 
-## Icon
+### Icon
 
 This is a compact form of the logo that can be used as an icon. Currently only used as the favicon for the website.
-
-### Specs
 
 ![Icon specification](assets/specs-icon.svg)
 
@@ -52,7 +74,7 @@ This is a compact form of the logo that can be used as an icon. Currently only u
 | Dark version background colour  | #000000              |
 | Decoration colour               | #FED91F              |
 
-### Versions
+Previews:
 
 | Version | Preview                                      |
 |:--------|:---------------------------------------------|
