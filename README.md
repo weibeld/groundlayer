@@ -71,12 +71,7 @@ git clone https://github.com/weibeld/groundlayer
       - **Local site path:** the `wordpress` directory of the repo **(must be exactly this)**
 
     The Local import moves files from the zip file back to the `wordpress` directory.
-1. When the import completes, commit the changes in the repository:
-    ```bash
-    git status
-    git add -A
-    git commit
-    ```
+1. When the import completes, run `git status` in the repository and commit the changes (if any)
 
 At this point, you can also click on _**Open site**_ in Local to verify that the website displays correctly.
 
@@ -94,8 +89,8 @@ At this point, you can also click on _**Open site**_ in Local to verify that the
 
 In the WordPress Admin Dashboard, go to **_Simply Static > Settings_** and ensure the following settins:
 
-- **_Delivery Method_**: **_Local Directory_**
-- **_Local Directory_**: the `docs` directory in the repository
+- **Delivery Method**: Local Directory
+- **Local Directory**: the `docs` directory in the repository
 
 ## Editing the website
 
