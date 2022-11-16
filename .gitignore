@@ -3,3 +3,9 @@
 
 # Copy of exported static files in Simply Static plugin
 **/plugins/simply-static/static-files
+
+# Font CSS files seem to be recreated when site is accessed for the first time
+wordpress/app/public/wp-content/fonts/*.css
+
+# Zipped WordPress project directory used for importing into Local
+wordpress.zip
