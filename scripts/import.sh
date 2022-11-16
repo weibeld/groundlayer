@@ -59,6 +59,5 @@ Complete the import by performing the following steps immediately:
       * Local site name:   <anything>
       * Local site domain: <anything>
       * Local site path:   $repo/wordpress
-  3. When the import completes, click 'Open site' and verify website display
-  4. In the repo, run 'git status' and commit the changes
+  3. When the import completes, run 'git status' in the repo and commit the changes
 EOF
