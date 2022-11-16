@@ -43,8 +43,6 @@ else
 fi
 
 echo "> Zipping project directory to 'wordpress.zip'..."
-# These files seem to be recreated on each import; deleting them prevents them from accumulating
-rm "$repo"/wordpress/app/public/wp-content/fonts/*.css
 zip -rq wordpress.zip "$repo"/wordpress
 
 echo "> Clearing project directory '$repo/wordpress'..."
