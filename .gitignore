@@ -1,7 +1,7 @@
 # WordPress logs
 **/logs
 
-# Copy of exported static files in Simply Static plugin
+# Temporary files directory of the Simply Static plugin
 **/plugins/simply-static/static-files
 
 # Font CSS files seem to be recreated when site is accessed for the first time
