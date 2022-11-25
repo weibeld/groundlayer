@@ -79,7 +79,7 @@ git clone https://github.com/weibeld/groundlayer
 1. In Local, click on _**WP Admin**_  to open the WordPress Admin Dashboard for the website
 1. Use the following credentials for the login dialog:
     - Username: **`admin`**
-    - Password: **`12345678`**
+    - Password: **`admin`**
 
 > **Note:** these credentials are hardcoded in the WordPress project. Since this WordPress installation is only used locally and never exposed to the internet, no secure credentials are necessary.
 
@@ -89,6 +89,8 @@ In the WordPress Admin Dashboard, go to **_Simply Static > Settings_** and ensur
 
 - **Delivery Method**: _Local Directory_
 - **Local Directory**: the `docs` directory in the repository
+
+> TODO: after [this issue](https://github.com/patrickposner/simply-static/issues/30#issuecomment-1317774780) has been fixed, add the following step: **_Simply Static > Settings > Advanced_**, check **_Clear local directory before export_**.
 
 ## Editing the website
 
