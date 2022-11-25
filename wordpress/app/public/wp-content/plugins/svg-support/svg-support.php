@@ -3,7 +3,7 @@
 Plugin Name: 	SVG Support
 Plugin URI:		http://wordpress.org/plugins/svg-support/
 Description: 	Upload SVG files to the Media Library and render SVG files inline for direct styling/animation of an SVG's internal elements using CSS/JS.
-Version: 		2.5.3
+Version: 		2.5.4
 Author: 		Benbodhi
 Author URI: 	https://benbodhi.com
 Text Domain: 	svg-support
@@ -94,6 +94,10 @@ if ( !isset($bodhi_svgs_options['restrict']) || $bodhi_svgs_options['restrict'] 
     $bodhi_svgs_options['restrict'] = array('administrator');
     update_option( 'bodhi_svgs_settings', $bodhi_svgs_options );
 }
+elseif (isset($bodhi_svgs_options['restrict']) && $bodhi_svgs_options['restrict'] == "none" ) {
+	$bodhi_svgs_options['restrict'] = array("none");
+    update_option( 'bodhi_svgs_settings', $bodhi_svgs_options );
+}
 
 // For version >= 2.5. | By default turn on "Sanitize SVG while uploading" option
 if ( !isset($bodhi_svgs_options['sanitize_svg']) ) {
@@ -104,5 +108,9 @@ if ( !isset($bodhi_svgs_options['sanitize_svg']) ) {
 // For version >= 2.5. | By default sanitize on upload for everyone expet for administrator and editor roles
 if ( !isset($bodhi_svgs_options['sanitize_on_upload_roles']) ) {
     $bodhi_svgs_options['sanitize_on_upload_roles'] = array('administrator', 'editor');
+    update_option( 'bodhi_svgs_settings', $bodhi_svgs_options );
+}
+elseif ( isset($bodhi_svgs_options['sanitize_on_upload_roles']) && $bodhi_svgs_options['sanitize_on_upload_roles'] == "none") {
+	$bodhi_svgs_options['sanitize_on_upload_roles'] = array("none");
     update_option( 'bodhi_svgs_settings', $bodhi_svgs_options );
 }
