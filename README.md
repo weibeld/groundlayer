@@ -62,15 +62,15 @@ git clone https://github.com/weibeld/groundlayer
     ```bash
     scripts/import.sh
     ```
-    This script zips the `wordpress` directory into **`wordpress.zip`** and it empties the `wordpress` directory. These steps are both necessary for the subsequent import of the WordPress project into Local.
+    This script adjusts the hardcoded project path in the SQL database file (`wordpress/app/sql/local.sql`), zips the resulting `wordpress` directory to **`wordpress.zip`**, and empties the current `wordpress` directory. This is necessary to correctly import the project into Local.
 1. In Local, click **_File > Import site_** and select the **`wordpress.zip`** file created above
-1. In the Local import dialog, use the following settings:
+1. In the Local import dialog, use the following settings (you may need to click on _Advanced options_ in the first dialog window):
 
       - **Local site name:** `groundlayer` (may be something else too)
       - **Local site domain:** `groundlayer.local` (may be something else too)
       - **Local site path:** the (currently empty) `wordpress` directory in the repo **(must be exactly this)**
 
-    The Local import moves files from the zip file back to the `wordpress` directory.
+    After the import, the `wordpress` directory should be populated with files again.
 1. In Local, click on _**Open site**_ and verify that the website displays correctly
 1. In the repository, run `git status` to see if any files changed, and, if so, commit the changes
 
