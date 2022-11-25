@@ -2,6 +2,7 @@
 engine = On
 {{#if os.windows}}
 extension_dir="{{extensionsDir}}"
+sys_temp_dir="C:\Windows\TEMP"
 {{/if}}
 
 ; Maxes
@@ -17,13 +18,13 @@ output_buffering = 4096
 error_reporting = E_ALL & ~E_DEPRECATED
 error_log = "{{logs.errorLog}}"
 log_errors = On
-log_errors_max_len = 1024
+{{!-- log_errors_max_len = 1024 --}}
 display_errors = On
 display_startup_errors = On
 ignore_repeated_errors = Off
 ignore_repeated_source = Off
 report_memleaks = On
-track_errors = Off
+{{!-- track_errors = Off --}}
 html_errors = On
 
 ; Sendmail
@@ -72,15 +73,15 @@ upload_max_filesize = 300M
 allow_url_fopen = On
 allow_url_include = Off
 default_socket_timeout = 60
+openssl.cafile="{{wpCaBundlePath}}"
 
 {{#if os.windows}}
 ; Load extensions
-extension=php_fileinfo.dll
 extension=php_curl.dll
 extension=php_gettext.dll
 extension=php_openssl.dll
 extension=php_exif.dll
-extension=php_gd2.dll
+extension=php_gd.dll
 extension=php_ftp.dll
 extension=php_imap.dll
 extension=php_bz2.dll
@@ -88,10 +89,10 @@ extension=php_mbstring.dll
 extension=php_sodium.dll
 extension=php_tidy.dll
 extension=php_xsl.dll
-extension=php_xmlrpc.dll
 extension=php_soap.dll
 extension=php_mysqli.dll
 extension=php_pdo_mysql.dll
+extension=php_fileinfo.dll
 {{/if}}
 
 [MySQL]
@@ -124,10 +125,18 @@ mysqli.reconnect = Off
 pdo_mysql.default_socket = "{{mysql.socket}}"
 pdo_mysql.default_port = {{mysql.port}}
 
+{{#if intelChipMac}}
+[imagick]
+extension = {{extensionsDir}}/imagick.so
+{{/if}}
+
 [Date]
 [filter]
 [iconv]
 [intl]
+{{#if os.windows}}
+extension = php_intl.dll
+{{/if}}
 [sqlite]
 [sqlite3]
 [Pcre]
@@ -196,13 +205,6 @@ ldap.max_links = -1
 [mcrypt]
 [dba]
 
-[imagick]
-{{#if os.windows}}
-extension = php_imagick.dll
-{{else}}
-extension = {{extensionsDir}}/imagick.so
-{{/if}}
-
 {{#unless apache}}
 [opcache]
 {{#if os.windows}}
@@ -222,10 +224,14 @@ zend_extension = php_xdebug.dll
 zend_extension = {{extensionsDir}}/xdebug.so
 {{/if}}
 
-xdebug.remote_enable=1
-xdebug.remote_connect_back=Off
-xdebug.remote_port="9000"
-xdebug.profiler_enable=0
+{{#if xdebugEnabled}}
+xdebug.mode=debug,develop
+{{else}}
+xdebug.mode=off
+{{/if}}
+xdebug.client_port=9003
+xdebug.start_with_request=trigger
+xdebug.discover_client_host=yes
 
 [Pcre]
 pcre.jit=0 {{! Disable due to limitation with macOS Notarization }}
