@@ -1,30 +1,8 @@
 # Logo
 
-Design specifications for the website logo and its variations.
+Design specs and usage instructions for the GroundLayer logo.
 
-## Usage
-
-### Basics
-
-To use any of the logos, export the corresponding artboards directly from [Sketch](https://www.sketch.com/).
-
-> For example, select the desired artboards and click _Export Selected..._.
-
-All artboards are intended to be exported as SVG files.
-
-### Convert to PNG
-
-To convert an SVG file to a PNG image of a specific size, use [Inkscape](https://inkscape.org/) with the following command:
-
-```bash
-inkscape [-w <width>] [-h <height>] input.svg -o output.png
-```
-
-In the above command, either the `-w` or `-h` option may be omitted, in which case the unspecified dimension is calculated automatically by maintaining the aspect ratio.
-
-> On macOS, Inkscape can be installed with `brew install --cask inkscape`, which also automatically links the Inkscape CLI.
-
-## Logo specifications
+## Specs
 
 ### Horizontal
 
@@ -80,3 +58,26 @@ Previews:
 |:--------|:---------------------------------------------|
 | Light   | ![Icon light](assets/preview-icon-light.svg) |
 | Dark    | ![Icon dark](assets/preview-icon-dark.svg)   |
+
+
+## Usage
+
+### Basics
+
+To use any of the logos, export the corresponding artboards directly from [Sketch](https://www.sketch.com/).
+
+> For example, select the desired artboards and click _Export Selected..._.
+
+All artboards are intended to be exported as SVG files.
+
+### Convert to PNG
+
+To convert an SVG file to a PNG image of a specific size, use [Inkscape](https://inkscape.org/) with the following command:
+
+```bash
+inkscape [-w <width>] [-h <height>] input.svg -o output.png
+```
+
+In the above command, either the `-w` or `-h` option may be omitted, in which case the unspecified dimension is calculated automatically by maintaining the aspect ratio.
+
+> On macOS, Inkscape can be installed with `brew install --cask inkscape`, which also automatically links the Inkscape CLI.
