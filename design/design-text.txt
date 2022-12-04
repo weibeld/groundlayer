@@ -1,0 +1,26 @@
+- Decorative Header
+  - Banner: Montserrat, 140, Black, All Caps
+  - Banner Slogan: Montserrat, 22, Bold
+    - Underline: 7
+    - Note: vary font size, character spacing, and underline width as appropriate
+  - Section: Montserrat, 60, Bold
+    - Underline: 22 (overlapping text)
+- Header
+  - Large: Montserrat, 32, Black, All Caps
+    - Underline: 7
+    - Used for: section headers
+  - Small: Montserrat, 20, Extra Bold, All Caps
+    - Underline: 4
+    - Used for: service box headers
+- Labels
+  - Large: Montserrat, 16, Semi Bold, All Caps
+    - Used for: large buttons
+  - Small: Montserrat, 14, Semi Bold, All Caps
+    - Used for: navigation, small buttons
+- Text
+  - Large: Poppins, 16, Regular
+    - Used for: all text except where small text is used
+  - Small: Poppins, 14, Regular
+    - Used for: footer (check if other stuff should be small too)
+
+  
