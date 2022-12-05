@@ -80,4 +80,4 @@ inkscape [-w <width>] [-h <height>] input.svg -o output.png
 
 In the above command, either the `-w` or `-h` option may be omitted, in which case the unspecified dimension is calculated automatically by maintaining the aspect ratio.
 
-> On macOS, Inkscape can be installed with `brew install --cask inkscape`, which also automatically links the Inkscape CLI.
+> On macOS, Inkscape can be installed with `brew install inkscape`, which also automatically links the Inkscape CLI.
