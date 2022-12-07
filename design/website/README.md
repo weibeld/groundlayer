@@ -63,7 +63,7 @@ Design specs for the website.
 | Name   |                          Preview                         | Value     |
 |--------|:--------------------------------------------------------:|-----------|
 | White  | ![](https://via.placeholder.com/15/EBEBEB/000000?text=+) | `#EBEBEB` |
-| Grey   | ![](https://via.placeholder.com/15/303030/000000?text=+) | `#303030` |
+| Grey   | ![](https://via.placeholder.com/15/242424/000000?text=+) | `#242424` |
 | Black  | ![](https://via.placeholder.com/15/000000/000000?text=+) | `#000000` |
 | Accent | ![](https://via.placeholder.com/15/FED91F/000000?text=+) | `#FED91F` |
 
