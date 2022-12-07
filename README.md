@@ -108,8 +108,16 @@ After the changes have been pushed, the new version of the website is automatica
 
 ### Assets
 
-- Icons for service descriptions from [Flaticon](https://www.flaticon.com/packs/engineering-165)
-- Colour of PNG files converted with the following command:
-    ```bash
-    convert file.png -fill "#ABCDEF" -colorize 100 file-out.png
-    ```
+Convert SVG files to PNG images (with a fixed with or height) with the following command:
+
+```bash
+for f in *.svg; do inkscape "$f" -w 200 -o "${f%.*}".png; done
+```
+
+> Inkscape can be installed on macOS with `brew install inkscape`.
+
+Change the colours of a PNG file with the following command:
+
+```bash
+convert file.png -fill "#ABCDEF" -colorize 100 file-out.png
+```

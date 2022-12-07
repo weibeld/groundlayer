@@ -69,15 +69,3 @@ To use any of the logos, export the corresponding artboards directly from [Sketc
 > For example, select the desired artboards and click _Export Selected..._.
 
 All artboards are intended to be exported as SVG files.
-
-### Convert to PNG
-
-To convert an SVG file to a PNG image of a specific size, use [Inkscape](https://inkscape.org/) with the following command:
-
-```bash
-inkscape [-w <width>] [-h <height>] input.svg -o output.png
-```
-
-In the above command, either the `-w` or `-h` option may be omitted, in which case the unspecified dimension is calculated automatically by maintaining the aspect ratio.
-
-> On macOS, Inkscape can be installed with `brew install inkscape`, which also automatically links the Inkscape CLI.
