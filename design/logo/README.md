@@ -1,6 +1,6 @@
 # Logo
 
-Design specs and usage instructions for the GroundLayer logo.
+Design specs for the GroundLayer logo.
 
 ## Specs
 
