@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" stroke="#979797" stroke-width="2" x="2" y="2" width="96" height="96"></rect>
+        <line x1="2.5" y1="98.5" x2="98.5" y2="2.5" id="Line-2" stroke="#979797" stroke-width="2" stroke-linecap="square"></line>
+        <line x1="98" y1="98" x2="2" y2="2" id="Line-2" stroke="#979797" stroke-width="2" stroke-linecap="square"></line>
+    </g>
+</svg>
