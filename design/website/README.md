@@ -24,10 +24,10 @@ Text styles:
 
 | Name          | Type scale exponent |    rem | Pixels | Font       | Weight        | Capitalisation | Underline | Line height |
 |---------------|--------------------:|-------:|-------:|------------|---------------|---------------:|----------:|-------------|
-| Header Huge   |                   6 | 3.8147 |  61.04 | Montserrat | 700 (Bold)    |       All Caps |    0.2 em | —           |
-| Header Large  |                   3 | 1.9531 |  31.25 | Montserrat | 700 (Bold)    |       All Caps |    0.2 em | —           |
-| Header Normal |                   1 |   1.25 |     20 | Poppins    | 700 (Bold)    |         Normal |    0.2 em | —           |
-| Header Small  |                  -1 |    0.8 |   12.8 | Poppins    | 700 (Bold)    |         Normal |    0.2 em | —           |
+| Header Huge   |                   6 | 3.8147 |  61.04 | Montserrat | 700 (Bold)    |       All Caps |    0.3 em | —           |
+| Header Large  |                   3 | 1.9531 |  31.25 | Montserrat | 700 (Bold)    |       All Caps |   0.25 em | —           |
+| Header Normal |                   1 |   1.25 |     20 | Poppins    | 700 (Bold)    |         Normal |   0.25 em | —           |
+| Header Small  |                  -1 |    0.8 |   12.8 | Poppins    | 700 (Bold)    |         Normal |   0.25 em | —           |
 | Text Normal   |                   0 |      1 |     16 | Poppins    | 400 (Regular) |         Normal |         — | 1.4375 rem  |
 | Text Small    |                  -1 |    0.8 |   12.8 | Poppins    | 400 (Regular) |         Normal |         — | —           |
 

@@ -21,6 +21,10 @@ p {
 
 h1, h2, h3 {
   font-weight: 700;
+  text-decoration-line: underline;
+  text-decoration-color: var(--color-accent-1);
+  text-decoration-thickness: 0.25em;
+  text-underline-offset: 0.25em;
 }
 
 h1 {
@@ -30,6 +34,9 @@ h1 {
 
 h1.large {
   font-size: calc(1rem * var(--type-scale) * var(--type-scale) * var(--type-scale) * var(--type-scale) * var(--type-scale) * var(--type-scale));
+  line-height: 1.5em;
+  text-decoration-thickness: 0.3em;
+  text-underline-offset: 0.2em;
 }
 
 h1.normal {
