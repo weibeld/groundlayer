@@ -2,30 +2,64 @@
 
 Design specs for the website.
 
-## Text styles
+## Base parameters
 
-| Name                    | Font       | Size | Weight        | Casing | Underline                           |
-|-------------------------|------------|------|---------------|--------|-------------------------------------|
-| Text                    | Poppins    | 16   | 400 (Regular) | Normal | —                                   |
-| Label Normal            | Poppins    | 16   | 500 (Medium)  | Normal | —                                   |
-| Label Small             | Poppins    | 14   | 500 (Medium)  | Normal | —                                   |
-| Label Tiny              | Poppins    | 12   | 500 (Medium)  | Normal | —                                   |
-| Header Primary Huge     | Montserrat | 60   | 700 (Bold)    | Upper  | 22 px (overlapping with letters)    |
-| Header Primary Large    | Montserrat | 35   | 700 (Bold)    | Upper  | 8 px (extending to edge of website) |
-| Header Primary Normal   | Montserrat | 20   | 700 (Bold)    | Upper  | 6 px                                |
-| Header Secondary Normal | Poppins    | 16   | 700 (Bold)    | Normal | 4 px                                |
-| Header Secondary Small  | Poppins    | 14   | 700 (Bold)    | Normal | 3 px                                |
+| Name                |      Pixels |            rem |
+|---------------------|------------:|---------------:|
+| Base viewport width | **1280 px** |              — |
+| Base font size      |   **16 px** |          1 rem |
+| Layout row height   |       23 px | **1.4375 rem** |
+
+## Type system
+
+Parameters:
+
+| Name       | Value |
+|------------|-------|
+| Type scale | 1.25  |
+
+> TODO: for now, the same type scale is used for all screen sizes. A:dapt this if necessary.
+
+Text styles:
+
+| Name          | Type scale exponent |    rem | Pixels | Font       | Weight        | Capitalisation | Underline | Line height |
+|---------------|--------------------:|-------:|-------:|------------|---------------|---------------:|----------:|-------------|
+| Header Huge   |                   6 | 3.8147 |  61.04 | Montserrat | 700 (Bold)    |       All Caps |    0.2 em | —           |
+| Header Large  |                   3 | 1.9531 |  31.25 | Montserrat | 700 (Bold)    |       All Caps |    0.2 em | —           |
+| Header Normal |                   1 |   1.25 |     20 | Poppins    | 700 (Bold)    |         Normal |    0.2 em | —           |
+| Header Small  |                  -1 |    0.8 |   12.8 | Poppins    | 700 (Bold)    |         Normal |    0.2 em | —           |
+| Text Normal   |                   0 |      1 |     16 | Poppins    | 400 (Regular) |         Normal |         — | 1.4375 rem  |
+| Text Small    |                  -1 |    0.8 |   12.8 | Poppins    | 400 (Regular) |         Normal |         — | —           |
 
 ### Usage
 
-#### Text
+#### Header Huge
+
+- Decorative section headers
+
+#### Header Large
+
+- Section headers
+
+#### Header Normal
+
+- Headers in service and team member boxes
+
+#### Header Small
+
+- Headers in footer
+
+#### Text Normal
 
 - Running text
+- Buttons
+- Normal copy-top-clipboard bars
+- Navigation links
 
-#### Label Normal
+#### Text Small
 
-- Buttons (normal)
-- Clipboard bars (normal)
+- Text in footer
+- Small copy-to-clipboard bars
 
 #### Label Small
 
@@ -57,6 +91,17 @@ Design specs for the website.
 #### Header Secondary Small
 
 - Headers in footer
+
+## Elements
+
+### Buttons
+
+| Type                     | Height             | Width              |
+|--------------------------|-------------------:|-------------------:|
+| Normal                   | 2.875 rem (46 px)  | 9 rem (144 px)     |
+| Copy-To-Clipboard Normal | 2.875 rem (46 px)  | 18 rem (288 px)    |
+| Copy-To-Clipboard Small  | 1.4375 rem (23 px) | 15 rem (240 px)    |
+| Social Icon              | 1.4375 rem (23 px) | 1.4375 rem (23 px) |
 
 ## Colours
 
