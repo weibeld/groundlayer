@@ -34,7 +34,7 @@ h1 {
 
 h1.large {
   font-size: calc(1rem * var(--type-scale) * var(--type-scale) * var(--type-scale) * var(--type-scale) * var(--type-scale) * var(--type-scale));
-  line-height: 1.5em;
+  line-height: calc(4 * var(--layout-row-height));
   text-decoration-thickness: 0.3em;
   text-underline-offset: 0.2em;
 }
@@ -49,4 +49,8 @@ h2 {
 
 h3, .is-small-text {
   font-size: calc(1rem / var(--type-scale));
+}
+
+.is-dark-text {
+  color: var(--color-dark-1);
 }
