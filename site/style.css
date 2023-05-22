@@ -1,5 +1,5 @@
 html {
-  font-size: 16px;
+  font-size: clamp(14px, 0.2vw + 13.2px, 16px);
   --layout-row-height: 1.4375rem;  /* 23px */
   --layout-columns-number: 5;
   --type-scale: 1.25;
@@ -15,6 +15,27 @@ body {
   color: var(--color-light);
   background-color: var(--color-dark-1);
 }
+
+.box-container {
+  padding: 3vw;
+  /*background-color: green;*/
+  display: flex;
+  flex-wrap: wrap;
+  gap: max(1rem, 1vw);
+}
+
+.box {
+  background-color: var(--color-dark-2);
+  padding: 0.5rem 2rem 1rem 2rem;
+  min-width: 15rem;
+  /*max-width: 30rem; */
+  flex: 0 0 25.1%;  /* At most 3 columns per row */
+}
+
+
+/*----------------------------------------------------------------------------*
+ * Typography
+ *----------------------------------------------------------------------------*/
 
 p {
   line-height: var(--layout-row-height);
@@ -46,6 +67,7 @@ h1.normal {
 
 h2 {
   font-size: calc(1rem * var(--type-scale));
+  text-transform: uppercase;
 }
 
 h3, .is-small-text {
@@ -57,9 +79,9 @@ h3, .is-small-text {
 }
 
 /*----------------------------------------------------------------------------*
- * Layout grid (can be deleted before publication)
+ * Layout grid (delete before publication)
  *----------------------------------------------------------------------------*/
-.layout:after {
+/*.layout:after {
   content: "";
   display: block;
   position: absolute;
@@ -85,4 +107,4 @@ h3, .is-small-text {
     blue calc(100%/var(--layout-columns-number)),
     blue calc(100%/var(--layout-columns-number)*2)
   );
-}
+} */
